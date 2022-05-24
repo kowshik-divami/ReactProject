@@ -1,11 +1,10 @@
-import UseEffectExample from './components/UseEffectExample'
-
+import ClassStateExample from './components/ClassStateExample';
 import './App.css';
 
 function App() {
   return (
     <div className='App'>
-      <UseEffectExample />
+      <ClassStateExample />
     </div>
   )
 }

@@ -18,6 +18,7 @@ const UseStateExample = () =>{
   }
   return (
     <div className="App">
+      {console.log('return executed')}
       <p>Count is {count} {theme}</p>
       <button onClick={decrementCount}>  -  </button>
       <button onClick={incrementCount}>  +  </button>
